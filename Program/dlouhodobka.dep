@@ -1,0 +1,104 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.src\stm8s_clk.c.Config.0]
+ExternDep= src\stm8s_clk.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_clk.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\ds1841.c.Config.0]
+ExternDep= src\ds1841.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\ds1841.h inc\swi2c.h inc\stm8s_conf.h inc\stm8s.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\off_handler.c.Config.0]
+ExternDep= src\off_handler.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\off_handler.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h inc\stm8_hd44780.h  inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\tsa5523.h inc\mbs74t1aef.h inc\audio.h  inc\ds1841.h inc\rotary_encoder.h inc\band.h inc\freq_and_ch_handler.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  inc\bigfont.h inc\stat_and_conf.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdio.h"
+
+[Root.Source Files.src\memory.c.Config.0]
+ExternDep= src\memory.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\memory.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h inc\stm8_hd44780.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h
+
+[Root.Source Files.src\extern_variables.c.Config.0]
+ExternDep= src\extern_variables.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\extern_variables.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\user_input.c.Config.0]
+ExternDep= src\user_input.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\user_input.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  inc\bigfont.h inc\keypad.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\string.h"  inc\freq_and_ch_handler.h inc\rotary_encoder.h inc\tsa5523.h inc\mbs74t1aef.h  inc\memory.h inc\audio.h inc\ds1841.h inc\disp_perks.h inc\stat_and_conf.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdio.h" inc\band.h  inc\rxtx.h
+
+[Root.Source Files.src\guide.c.Config.0]
+ExternDep= src\guide.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\guide.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stat_and_conf.c.Config.0]
+ExternDep= src\stat_and_conf.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stat_and_conf.h inc\extern_variables.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h inc\tsa5523.h inc\mbs74t1aef.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdio.h"
+
+[Root.Source Files.src\stm8s_it.c.Config.0]
+ExternDep= src\stm8s_it.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\extern_variables.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h inc\stm8s_it.h inc\swuart.h
+
+[Root.Source Files.src\stm8s_tim3.c.Config.0]
+ExternDep= src\stm8s_tim3.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_tim3.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\autoset.c.Config.0]
+ExternDep= src\autoset.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\autoset.h inc\extern_variables.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\swuart.c.Config.0]
+ExternDep= src\swuart.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h inc\swuart.h
+
+[Root.Source Files.src\freq_and_ch_handler.c.Config.0]
+ExternDep= src\freq_and_ch_handler.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\freq_and_ch_handler.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  inc\rotary_encoder.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\bigfont.h inc\tsa5523.h inc\mbs74t1aef.h
+
+[Root.Source Files.src\pcf8563.c.Config.0]
+ExternDep= src\pcf8563.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\PCF8563.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\swi2c.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\band.c.Config.0]
+ExternDep= src\band.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h" inc\band.h  inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h
+
+[Root.Source Files.src\audio.c.Config.0]
+ExternDep= src\audio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\audio.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h inc\ds1841.h inc\swi2c.h  inc\rotary_encoder.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h
+
+[Root.Source Files.src\disp_perks.c.Config.0]
+ExternDep= src\disp_perks.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\disp_perks.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\keypad.c.Config.0]
+ExternDep= src\keypad.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\keypad.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\string.h"
+
+[Root.Source Files.src\tsa5523.c.Config.0]
+ExternDep= src\tsa5523.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\tsa5523.h inc\swi2c.h inc\stm8s_conf.h inc\stm8s.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\rotary_encoder.c.Config.0]
+ExternDep= src\rotary_encoder.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\rotary_encoder.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h inc\extern_variables.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\pcf8563.h inc\swi2c.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\swi2c.c.Config.0]
+ExternDep= src\swi2c.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\swi2c.h inc\stm8s_conf.h inc\stm8s.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8s_tim4.c.Config.0]
+ExternDep= src\stm8s_tim4.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_tim4.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h
+
+[Root.Source Files.src\stm8s_itc.c.Config.0]
+ExternDep= src\stm8s_itc.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_itc.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8s_gpio.c.Config.0]
+ExternDep= src\stm8s_gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_gpio.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8s_flash.c.Config.0]
+ExternDep= src\stm8s_flash.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_flash.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8s_exti.c.Config.0]
+ExternDep= src\stm8s_exti.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_exti.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8s_delay.c.Config.0]
+ExternDep= src\stm8s_delay.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_delay.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\stm8_hd44780.c.Config.0]
+ExternDep= src\stm8_hd44780.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\rxtx.c.Config.0]
+ExternDep= src\rxtx.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h" inc\rxtx.h  inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.src\mbs74t1aef.c.Config.0]
+ExternDep= src\mbs74t1aef.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\mbs74t1aef.h inc\swi2c.h inc\stm8s_conf.h inc\stm8s.h inc\stm8s_delay.h  inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h  inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  inc\extern_variables.h inc\pcf8563.h inc\stm8_hd44780.h
+
+[Root.Source Files.src\bigfont.c.Config.0]
+ExternDep= src\bigfont.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\bigfont.h inc\stm8_hd44780.h inc\stm8s.h inc\stm8s_conf.h  inc\stm8s_delay.h inc\stm8s_clk.h inc\stm8s_exti.h inc\stm8s_flash.h  inc\stm8s_gpio.h inc\stm8s_itc.h inc\stm8s_tim3.h inc\stm8s_tim4.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdbool.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdio.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\stdlib.h"  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\string.h"  inc\off_handler.h inc\stm8_hd44780.h inc\extern_variables.h inc\pcf8563.h  inc\swi2c.h inc\tsa5523.h inc\mbs74t1aef.h inc\audio.h inc\ds1841.h  inc\rotary_encoder.h inc\band.h inc\freq_and_ch_handler.h inc\bigfont.h  inc\stat_and_conf.h inc\user_input.h inc\keypad.h inc\memory.h  inc\disp_perks.h inc\rxtx.h inc\guide.h inc\swuart.h inc\autoset.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\HSTM8\mods0.h"  inc\stm8s_it.h inc\stm8s.h inc\stm8s_conf.h inc\stm8s_delay.h inc\stm8s_clk.h  inc\stm8s_exti.h inc\stm8s_flash.h inc\stm8s_gpio.h inc\stm8s_itc.h  inc\stm8s_tim3.h inc\stm8s_tim4.h
