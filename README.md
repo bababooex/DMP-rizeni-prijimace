@@ -9,7 +9,9 @@ Program a schémata mé maturitní praktické práce. Některé návrhy DPS, pop
 - Knihovna pro maticovou klávesnici s neblokujícím časovým ošetřením stisku
 - Upravená knihovna pro 4x40 lcd display se dvěma jednotkami HD44780 (případně ekvivalenty)
 - Knihovna pro zobrazení velkého fontu (dvouřádkového) pro lcd display (jenom čísla)
-- Knihovna pro řízení rotačních enkodérů softwarově\
+- Knihovna pro řízení rotačních enkodérů softwarově
+
+  
 A další spousta podpůrných knihoven určených specificky pro tento projekt (práce s pamětí, pásmo, vlastní znaky, přepínání režimů...) a samozřejmě hlavní program main
 # Co je v KiCadu
 - Úplné schéma zapojení hlavní DPS s tlačítkovou DPS, vlastní footprinty a kompletní návrhy obou DPS
