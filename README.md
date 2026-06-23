@@ -16,6 +16,6 @@ A další spousta podpůrných knihoven určených specificky pro tento projekt 
 # Co je v KiCadu
 - Úplné schéma zapojení hlavní DPS s tlačítkovou DPS, vlastní footprinty a kompletní návrhy obou DPS
 # Vzhled
-- Vzhled sestaveného zařízení
+Vzhled sestaveného zařízení
 
   ![the_receiver](images/the_receiver.png)
