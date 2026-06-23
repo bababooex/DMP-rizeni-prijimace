@@ -15,3 +15,7 @@ Program a schémata mé maturitní praktické práce. Některé návrhy DPS, pop
 A další spousta podpůrných knihoven určených specificky pro tento projekt (práce s pamětí, pásmo, vlastní znaky, přepínání režimů...) a samozřejmě hlavní program main
 # Co je v KiCadu
 - Úplné schéma zapojení hlavní DPS s tlačítkovou DPS, vlastní footprinty a kompletní návrhy obou DPS
+# Vzhled
+- Vzhled sestaveného zařízení
+
+  ![the_receiver](images/the_receiver.png)
